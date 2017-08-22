@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+        <attr name="textColorValue" format="color"></attr>
+        <attr name="textContent" format="string"></attr>
+        <attr name="qq" format="dimension"></attr>
+        <attr name="sinal" format="dimension"></attr>
+        <attr name="mobile" format="dimension"></attr>
+        <attr name="down" format="dimension"></attr>
+        <attr name="night" format="dimension"></attr>
+        <attr name="shezhi" format="dimension"></attr>
+        <attr name="qq_login" format="dimension"></attr>
+        <attr name="weixin_login" format="dimension"></attr>
+        <attr name="sinal_login" format="dimension"></attr>
+        <attr name="tencnet_weibo" format="dimension"></attr>
+        <attr name="renren" format="dimension"></attr>
+        <attr name="li1" format="dimension"></attr>
+        <attr name="li2" format="dimension"></attr>
+        <attr name="li3" format="dimension"></attr>
+        <attr name="li4" format="dimension"></attr>
+        <attr name="li5" format="dimension"></attr>
+
+
+</resources>

@@ -1,0 +1,71 @@
+<resources>
+
+    <!-- Base application theme. 白天的模式 -->
+    <style name="day_theme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowBackground">@color/white</item>
+        <!--日间模式对应的字体颜色 和日间模式对应的文本内容-->
+        <item name="textColorValue">@color/black</item>
+        <item name="textContent">@string/change_to_night</item>
+        <item name="qq">@drawable/qq_leftdrawer_normal</item>
+        <item name="sinal">@drawable/sina_leftdrawer_normal</item>
+        <item name="mobile">@drawable/cellphone_leftdrawer_normal</item>
+        <item name="down">@drawable/downloadicon_leftdrawer_normal_night</item>
+        <item name="night">@drawable/nighticon_leftdrawer_normal_night</item>
+        <item name="shezhi">@drawable/settingicon_leftdrawer_normal_night</item>
+
+        <item name="qq_login">@drawable/btn_intro_qq_normal</item>
+        <item name="weixin_login">@drawable/btn_intro_weixin_normal</item>
+        <item name="sinal_login">@drawable/btn_intro_weibo_normal</item>
+        <item name="tencnet_weibo">@drawable/btn_intro_tencent_normal</item>
+        <item name="renren">@drawable/btn_intro_renren_normal</item>
+
+        <item name="li1">@drawable/li1</item>
+        <item name="li2">@drawable/li2</item>
+        <item name="li3">@drawable/li3</item>
+        <item name="li4">@drawable/li4</item>
+        <item name="li5">@drawable/li5</item>
+
+
+
+    </style>
+    <!-- Base application theme. 夜晚的模式 -->
+    <style name="night_theme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/dark_bg</item>
+        <item name="colorPrimaryDark">@color/dark_bg</item>
+        <item name="colorAccent">@color/dark_bg</item>
+        <item name="android:windowBackground">@color/haokan</item>
+        <!--夜间模式对应的字体颜色 和夜间模式对应的文本内容-->
+        <item name="textColorValue">@color/white</item>
+        <item name="textContent">@string/change_to_day</item>
+        <item name="qq">@drawable/ic_qq_login_pressed_night</item>
+        <item name="sinal">@drawable/ic_weibo_login_pressed</item>
+        <item name="mobile">@drawable/cellphoneicon_login_profile_pressed</item>
+        <item name="down">@drawable/downloadicon_profile</item>
+        <item name="night">@drawable/dayicon_leftdrawer_normal_night</item>
+        <item name="shezhi">@drawable/settingicon_leftdrawer_normal_night</item>
+
+        <item name="qq_login">@drawable/btn_intro_qq_pressed</item>
+        <item name="weixin_login">@drawable/btn_intro_weixin_pressed</item>
+        <item name="sinal_login">@drawable/btn_intro_weibo_pressed</item>
+        <item name="tencnet_weibo">@drawable/btn_intro_tencent_pressed</item>
+        <item name="renren">@drawable/btn_intro_renren_pressed</item>
+
+
+        <item name="li1">@drawable/li11</item>
+        <item name="li2">@drawable/li22</item>
+        <item name="li3">@drawable/li33</item>
+        <item name="li4">@drawable/li44</item>
+        <item name="li5">@drawable/li55</item>
+    </style>
+
+    <style name="popWindowAnimation" parent="@android:style/Animation">
+        <item name="android:windowEnterAnimation">@anim/sliding_right_in</item>
+        <item name="android:windowExitAnimation">@anim/sliding_left_out</item>
+    </style>
+
+</resources>

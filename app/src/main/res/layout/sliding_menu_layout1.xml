@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_margin="50dp"
+        android:id="@+id/qq_login_iv"
+        android:layout_width="100dp"
+        android:layout_height="100dp" />
+    <TextView
+        android:layout_below="@id/qq_login_iv"
+        android:id="@+id/qq_login_tv"
+        android:textSize="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="?attr/textColorValue"/>
+
+
+    <TextView
+        android:id="@+id/TTTT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="登陆后 可关注好友评论和收藏"
+        android:textColor="?attr/textColorValue"
+        />
+
+    <ImageView
+        android:id="@+id/qq_login"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:src="?attr/qq_login"
+        android:layout_below="@+id/TTTT"
+        android:layout_alignLeft="@+id/TTTT"
+        android:layout_marginTop="20dp"
+        />
+    <ImageView
+        android:id="@+id/iv2"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:src="?attr/sinal_login"
+        android:layout_below="@+id/qq_login"
+        android:layout_alignLeft="@+id/qq_login"
+        android:layout_marginTop="20dp"
+        />
+    <ImageView
+        android:id="@+id/iv3"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:src="?attr/tencnet_weibo"
+        android:layout_below="@+id/iv2"
+        android:layout_alignLeft="@+id/iv2"
+        android:layout_marginTop="20dp"
+        />
+        <ImageView
+            android:layout_below="@+id/iv3"
+            android:layout_alignLeft="@+id/iv3"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:src="?attr/renren"
+            />
+        <ImageView
+            android:layout_below="@+id/iv3"
+            android:layout_alignRight="@+id/iv3"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:src="?attr/weixin_login"
+            />
+
+</RelativeLayout>
